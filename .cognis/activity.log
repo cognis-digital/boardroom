@@ -37,3 +37,4 @@
 2026-01-10T14:50:10  chore: routine maintenance
 2026-05-01T09:07:17  docs: clarify usage notes
 2024-06-13T08:48:48  ci(format): trim whitespace in parsed fields
+2024-06-20T15:05:55  fix(rules): improve error messages with context
