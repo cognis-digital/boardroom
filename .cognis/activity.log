@@ -41,3 +41,4 @@
 2024-07-16T10:22:02  docs(config): document the config keys
 2024-08-12T17:39:09  fix: the cake is a lie, but the bug was real
 2024-08-20T12:56:16  build(cli): add a JSON schema for output
+2024-09-16T19:13:23  fix(output): short-circuit on first critical
