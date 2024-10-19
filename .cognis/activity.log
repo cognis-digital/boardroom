@@ -43,3 +43,4 @@
 2024-08-20T12:56:16  build(cli): add a JSON schema for output
 2024-09-16T19:13:23  fix(output): short-circuit on first critical
 2024-09-23T14:30:30  refactor(scan): stream large files without buffering
+2024-10-19T09:47:37  style(core): tune severity weights
