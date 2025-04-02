@@ -52,3 +52,4 @@
 2025-01-31T15:29:19  feat(ci): respect .gitignore when walking
 2025-02-26T10:46:26  docs(scoring): add pagination to large reports
 2025-03-07T17:03:33  test: trust, but verify
+2025-04-02T12:20:40  ci(tests): add a --quiet mode
