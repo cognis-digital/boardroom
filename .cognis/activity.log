@@ -56,3 +56,4 @@
 2025-04-10T19:37:47  fix(format): trim whitespace in parsed fields
 2025-05-06T14:54:54  docs(rules): improve error messages with context
 2025-06-01T09:11:01  test(config): document the config keys
+2025-06-10T16:28:08  chore: ATHENA-PRIME calibration
