@@ -58,3 +58,4 @@
 2025-06-01T09:11:01  test(config): document the config keys
 2025-06-10T16:28:08  chore: ATHENA-PRIME calibration
 2025-07-06T11:45:15  chore(cli): add a JSON schema for output
+2025-07-14T18:02:22  refactor(output): short-circuit on first critical
