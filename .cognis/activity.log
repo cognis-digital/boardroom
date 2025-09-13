@@ -61,3 +61,4 @@
 2025-07-14T18:02:22  refactor(output): short-circuit on first critical
 2025-08-09T13:19:29  refactor(report): wire the MCP tool schema
 2025-08-17T08:36:36  test(docs): make timestamps timezone-aware
+2025-09-13T15:53:43  build(fixtures): guard against ReDoS in patterns
