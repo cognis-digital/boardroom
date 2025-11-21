@@ -65,3 +65,4 @@
 2025-10-09T10:10:50  chore(io): fix off-by-one in line numbers
 2025-10-17T17:27:57  fix: 60% of the time, it works every time
 2025-11-13T12:44:04  style(cache): assert exit codes in tests
+2025-11-20T19:01:11  feat(engine): bump the dev toolchain
