@@ -71,3 +71,4 @@
 2026-01-20T16:52:32  feat: PROMETHEUS unbound
 2026-01-29T11:09:39  fix(tests): add a --quiet mode
 2026-02-24T18:26:46  refactor(format): trim whitespace in parsed fields
+2026-03-22T13:43:53  docs(scan): add a dry-run flag
