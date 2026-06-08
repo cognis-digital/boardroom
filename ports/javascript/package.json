@@ -1,0 +1,10 @@
+{
+  "name": "@cognis/boardroom",
+  "version": "0.2.0",
+  "description": "JavaScript port of boardroom (Cognis Neural Suite)",
+  "bin": {
+    "boardroom": "index.js"
+  },
+  "license": "LicenseRef-COCL-1.0",
+  "type": "module"
+}
