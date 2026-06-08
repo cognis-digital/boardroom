@@ -36,9 +36,12 @@ founders shipping monthly updates
 <a name="features"></a>
 ## Features
 
-- ✅ Todo
-- ✅ Fixme
-- ✅ Xxx
+- ✅ Pct Change
+- ✅ Cagr
+- ✅ Runway Months
+- ✅ Parse Metrics
+- ✅ Build Report
+- ✅ Render Markdown
 - ✅ Runs on Linux/macOS/Windows · Docker · devcontainer
 - ✅ Ports in Python, JavaScript, Go, and Rust (`ports/`)
 
