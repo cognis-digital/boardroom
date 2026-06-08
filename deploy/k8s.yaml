@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata: { name: boardroom, labels: { app: boardroom } }
+spec:
+  replicas: 1
+  selector: { matchLabels: { app: boardroom } }
+  template:
+    metadata: { labels: { app: boardroom } }
+    spec:
+      containers:
+        - name: boardroom
+          image: ghcr.io/cognis-digital/boardroom:latest
+          ports: [{ containerPort: 8000 }]
+          resources:
+            requests: { cpu: "50m", memory: "64Mi" }
+            limits: { cpu: "500m", memory: "256Mi" }
+---
+apiVersion: v1
+kind: Service
+metadata: { name: boardroom }
+spec:
+  selector: { app: boardroom }
+  ports: [{ port: 80, targetPort: 8000 }]
