@@ -1,0 +1,36 @@
+{
+  "company": "Northwind Analytics",
+  "currency": "USD",
+  "periods": [
+    {
+      "label": "2026-01",
+      "metrics": {
+        "mrr": 38000,
+        "cash": 720000,
+        "net_burn": 61000,
+        "customers": 96,
+        "churn_rate": 2.1
+      }
+    },
+    {
+      "label": "2026-02",
+      "metrics": {
+        "mrr": 43200,
+        "cash": 659000,
+        "net_burn": 58000,
+        "customers": 108,
+        "churn_rate": 1.9
+      }
+    },
+    {
+      "label": "2026-03",
+      "metrics": {
+        "mrr": 51200,
+        "cash": 604000,
+        "net_burn": 52000,
+        "customers": 121,
+        "churn_rate": 2.4
+      }
+    }
+  ]
+}
