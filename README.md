@@ -16,7 +16,7 @@
 </div>
 
 ```bash
-pip install cognis-boardroom
+pip install "git+https://github.com/cognis-digital/boardroom.git"
 boardroom scan .            # → prioritized findings in seconds
 ```
 
@@ -51,7 +51,7 @@ founders shipping monthly updates
 ## Quick start
 
 ```bash
-pip install cognis-boardroom
+pip install "git+https://github.com/cognis-digital/boardroom.git"
 boardroom --version
 boardroom scan .                       # scan current project
 boardroom scan . --format json         # machine-readable
