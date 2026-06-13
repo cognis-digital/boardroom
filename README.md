@@ -20,6 +20,12 @@ pip install "git+https://github.com/cognis-digital/boardroom.git"
 boardroom scan .            # → prioritized findings in seconds
 ```
 
+<!-- cognis:layman:start -->
+## What is this?
+
+Boardroom turns a simple JSON file of your company's monthly numbers — like revenue, cash, and customer count — into a clean investor update you can share or paste into an email. You give it your metrics and it automatically calculates growth rates, cash runway, and highlights what improved or needs attention. It is designed for startup founders who want to send polished monthly updates to investors without paying for a separate reporting tool.
+<!-- cognis:layman:end -->
+
 ## Contents
 
 - [Why boardroom?](#why) · [Features](#features) · [Quick start](#quick-start) · [Example](#example) · [Architecture](#architecture) · [AI stack](#ai-stack) · [How it compares](#how-it-compares) · [Integrations](#integrations) · [Install anywhere](#install-anywhere) · [Related](#related) · [Contributing](#contributing)
@@ -48,6 +54,42 @@ founders shipping monthly updates
 <div align="right"><a href="#top">↑ back to top</a></div>
 
 <a name="quick-start"></a>
+<!-- cognis:install:start -->
+## Install
+
+`boardroom` is source-available (not published to PyPI) — every method below installs
+straight from GitHub. Pick whichever you prefer; the one-line scripts auto-detect
+the best tool available on your machine.
+
+**One-liner (Linux / macOS):**
+```sh
+curl -fsSL https://raw.githubusercontent.com/cognis-digital/boardroom/HEAD/install.sh | sh
+```
+
+**One-liner (Windows PowerShell):**
+```powershell
+irm https://raw.githubusercontent.com/cognis-digital/boardroom/HEAD/install.ps1 | iex
+```
+
+**Or install manually — any one of:**
+```sh
+pipx install "git+https://github.com/cognis-digital/boardroom.git"     # isolated (recommended)
+uv tool install "git+https://github.com/cognis-digital/boardroom.git"  # uv
+pip install "git+https://github.com/cognis-digital/boardroom.git"      # pip
+```
+
+**From source:**
+```sh
+git clone https://github.com/cognis-digital/boardroom.git
+cd boardroom && pip install .
+```
+
+Then run:
+```sh
+boardroom --help
+```
+<!-- cognis:install:end -->
+
 ## Quick start
 
 ```bash
